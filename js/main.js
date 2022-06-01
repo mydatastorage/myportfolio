@@ -24,7 +24,7 @@ function scrollToTop(){
 
 //const scriptURL = 'https://script.google.com/macros/s/AKfycbz4Ve-J-eJw0OEnPxT31jaJSSPx1wBUVK2kbaJq9KV395d6vxuVVUmjFC8B0uFeSeI/exec'
 //const form = document.forms['google-sheet']
-const scriptURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTptK7VkwrHaKnqSe4UJqZYvHn0ixRn5DpAnLSzOD-msly8k2qWt7Px2qPJftLG9cEdDIFEWegKfE8t/pubhtml?gid=0&single=true'
+const scriptURL = 'https://docs.google.com/spreadsheets/d/1Z44XXex1axj_fBih80f-XriSG5aP14G9OZkBY_kOQqI/edit?usp=sharing'
 const form = document.forms['google-sheet']
 
 form.addEventListener('submit', e => {
