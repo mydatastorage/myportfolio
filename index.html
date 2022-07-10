@@ -1,207 +1,159 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Port Folio</title>
-    <style type="text/css">
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
 
-        }
-        .scrollTop{
-            position:fixed;
-            bottom: 30px;
-            right:30px;
-            padding: 10px 15px;
-            background:#2f3127;
-            color:#fff;
-            border-radius:5px;
-            border-radius:1px solid #fff;
-            cursor: pointer;
-            transition: all 0.5s ease 0s;
-        }
-        .scrollTop:hover{
-            background-color: #f7f7f7;
-            color:#000;
-        }
-
- </style>
- <script src="https://kit.fontawesome.com/17e1304ee3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css\style.css">
+    <script src="https://kit.fontawesome.com/17e1304ee3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-
     <header>
-
-        <div class="nav-item">
-
-            <nav >
-
-
-                <ul>
-                   <li><a href="#">HOME</a>
-                   <li><a href="#about">ABOUT</a>
-                   <li><a href="#skills">SKILL</a>
-                   <li><a href="#contact">CONTACT</a>
-                </ul>
-
-           </nav>
-
-        </div>
-
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILL</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
     </header>
-    <section id="main">
-
-       <div class="left">
-            <h1> Anirudha <span>Bage</span></h1>
-            <h5> Software Consultant</h5>
+    <main class="intro">
+        <div class="basic-info">
+            <h1>Anirudha Bage</h1>
+            <h3>Software Consultant</h3>
             <p>MCA, Newton School, Bilaspur(Chhatisgarh)</p>
-            <a href="#pdffile"><button class="btn" type="btn-btn">Download CV</button></a>
-            <br><br>
+
+            <button class="btn download-cv-btn" type="btn-btn">Download CV</button></a>
         </div>
-            </section>
-            <BR>
-                <BR>
+        <div>
+            <img src="./images/annupic.jpg" alt="Anirudh" width="300" height="350" />
+        </div>
+    </main>
+
+    <!--about-section-->
+
+    <section id="about">
 
 
-        <!--about-section-->
-
-        <section id="about">
-            <div class="about-block">
-            <div class="about-text">
-                <h1>About </h1>
-                <h2>Anirudh M. Bage </h2>
-                <p> Anirudha M. Bage is a post graduate in Computer Applications from Bilaspur (Chhattisgarh).
-                    His area of interest includes Web Development, UI/UX, Languages like, C/C++/Java(Core)/DSA. He is a GATE Qualified Candidate.
-                </p>
-                <a href="#"><button class="btn" type="button">More Details</button></a>
-                <br><br><br>
-
-                <div class="about-model">
-                    <img src="images\annupic.jpg" alt="Anirudh" width="300" height="350"/>
-                </div>
-            </div>
-
-            </div>
-
-        </section>
-
-        <br><br><br><br>
+        <h1>About</h1>
+        <p>
+            Anirudha M. Bage is a post graduate in Computer Applications from
+            Bilaspur (Chhattisgarh). His area of interest includes Web
+            Development, UI/UX, Languages like, C/C++/Java(Core)/DSA. He is a
+            GATE Qualified Candidate.
+        </p>
+        <button class="btn" type="button">More Details</button>
+    </section>
 
 
-        <!--skills-->
-        <section id="skills" style="margin-left:100px;">
-         <div class="skills-block">
-             <h1>SKILLS</h1>
+    <!--skills-->
+    <section id="skills">
+        <div class="skills-block">
+            <h1>SKILLS</h1>
 
             <div class="skills-items">
-
                 <li>
-                    <h3>DSA (Core & Adv.)</h3><span class="bar"><span class="javascript"></span></span>
-                        </li>
+                    <h3>DSA (Core & Adv.)</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
                 <li>
-                    <h3>DSA (SQL/PLSQL)</h3><span class="bar"><span class="javascript"></span></span>
-                        </li>
-                
-                <li>
-                    
-             <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+                    <h3>DSA (SQL/PLSQL)</h3>
+                    <span class="bar"><span class="javascript"></span></span>
                 </li>
 
                 <li>
-             <h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+                    <h3>HTML5</h3>
+                    <span class="bar"><span class="html"></span></span>
                 </li>
 
                 <li>
-                    <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
-                        </li>
-                
+                    <h3>CSS3</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+
+                <li>
+                    <h3>JAVASCRIPT</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
+            </div>
+        </div>
+    </section>
+    <!--skills end-->
+
+    <!--contact-section-->
+
+    <section id="contact">
+        <div class="contact">
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+
+                    <div class="info">
+
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>Bilaspur (C.G.), India
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>bageannu@gmail.com
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>+91-xxxx-xxxxxx
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-clock"></i>Mon - Sat 10:00 AM to 6:00PM
+                            <div class="social">
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+
+                        
+
                     </div>
-            </div>
-
-
-
-         </section>
-         <!--skills end-->
-
-         <!--contact-section-->
-
-         <br><br>
-
-         <section id="contact">
-            <div class="contact">
-                <div class="form">
-                     <div class="contact-info">
-                         <h3 class="title">Let's get in touch </h3>
-
-                         <div class="info">
-                             <div class="information">
-                                <div><i class="fa-solid fa-location-dot"></i><br><br>Bilaspur, India</div>
-
-                                <br>
-                                <div><i class="fa-solid fa-envelope"></i><br><br>bageannu@gmail.com</div>
-                                <br><br>
-                                <div><i class="fa-solid fa-phone"></i><br><br>+91-xxxx-xxxxxx</div><br>
-                                <div><i class="fa-solid fa-clock"></i><br><br>Mon - Sat 10:00 AM to 6:00PM</div>
-                                <!--social buttons-->
-            <div class="social ">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-
-                             </div>
-                         </div>
-                     </div>
-                         <div class="contact-form">
-                            <span class="circle one"></span>
-                            <span class="circle two"></span>
-
-                            <form action="index.html" name="google-sheet">
-                                <h3 class="title">Contact Us</h3>
-                                <div class="input-container ">
-                                    <input type="text" name="name" class="input">
-                                    <label for="">Username</label>
-                                    <span>Username</span>
-                                </div>
-                                <div class="input-container">
-                                    <input type="email" name="email" class="input">
-                                    <label for="">Email</label>
-                                    <span>Email</span>
-                                </div>
-                                <div class="input-container">
-                                    <input type="tel" name="phone" class="input">
-                                    <label for="">Phone</label>
-                                    <span>Phone</span>
-                                </div>
-                                <div class="input-container textarea ">
-                                    <textarea name="message" class="input" input type="text" ></textarea>
-                                    <label for="">Message</label>
-                                    <span>Message</span>
-                                </div>
-                                <input type="submit" value="Send" class="btn1"/>
-                            </form>
-
-                         </div>
                 </div>
-             </div>
-        </section>
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
 
+                    <form action="index.html" name="google-sheet">
+                        <h3 class="title">Contact Us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input" input type="text"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn1" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div onclick="scrollToTop()" class="scrollTop">Scroll to Top</div>
+    <div onclick="scrollToTop()" class="scrollTop">Scroll to Top</div>
 
+    <footer class="footer"></footer>
 
+    <script src="js\main.js"></script>
 
-        <footer class="footer">
-
-          </footer>
-
-          <script src="js\main.js">
-
-          </script>
 </body>
+
 </html>
